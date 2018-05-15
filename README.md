@@ -14,6 +14,8 @@ Then I used different morphological operations such as dilation and erosion on t
 
 Then I found the resultant contours in the image and those contours were good enough to show only the movement in the frames then I ploted it.
 
+I have commented every step with respective function used.
+
 # Function used:
 absdiff()-calculates the difference between the images
         
@@ -32,5 +34,7 @@ findContours()-for finding the contours in the frames
 drawContours()-for drawing the contours on the frames
 
 # Result-
+
+Left image shows still frame and Right frame shows with motion.
 
 ![img](https://github.com/ArjunSikhwal/Motion-Detection-with-webcam/blob/master/Screenshot%20(70).png)
