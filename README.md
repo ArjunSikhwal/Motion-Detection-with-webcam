@@ -12,7 +12,7 @@ As the difference in the frames also shows every boundary in the image, so to re
 
 Then I used different morphological operations such as dilation and erosion on the resultant difference to get better boundaries in the image.
 
-Then i found the resultant contours in the image and those contours were good enough to show only the movement in the frames.then i ploted it.
+Then I found the resultant contours in the image and those contours were good enough to show only the movement in the frames then I ploted it.
 
 # Function used:
 absdiff()-calculates the difference between the images
@@ -30,3 +30,7 @@ erode( )-to apply erosion on image
 findContours()-for finding the contours in the frames
 
 drawContours()-for drawing the contours on the frames
+
+# Result-
+
+![img](https://github.com/ArjunSikhwal/Motion-Detection-with-webcam/blob/master/Screenshot%20(70).png)
