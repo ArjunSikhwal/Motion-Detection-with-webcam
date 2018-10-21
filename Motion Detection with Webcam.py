@@ -4,8 +4,8 @@ import numpy as np
 
 def main():
     
-    #to set the resolution to the min. value so that even if the computing power of the PC is low
-    #the program will stil work
+    #to set the resolution to the min. value so that even if the computing power of the PC is slow
+    #the program will still work
     w = 800
     h = 600
     
